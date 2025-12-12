@@ -2,6 +2,7 @@
 
 
 ---Overview---
+
 This project explores real-time hand gesture recognition using Computer Vision and Machine Learning. A Convolutional Neural Netowrk (CNN) is trained on a custom dataset to classify hand gestures from image data, enabling gesture based interaction with a small scale music player. 
 
 Through computer vision and YCbCr color processing, image footage from a 2MP global shutter camera was converted into black and white footage. Using these images a dataset of approximately 2000 images was constructed. Using this custom dataset, a CNN was trained and evaluated. Live testing showed that the CNN was able to correctly identify hand gestures and play music according to the gesture. The CNN was later integrated with PyGame Mixer for efficient music playback.
@@ -11,6 +12,7 @@ This system includes a full pipleine for custom dataset preperation, model train
 
 
 ---Goal---
+
 One of my dad's favorite song, "Yeah" by Usher, starts off with the lyrics "Peace up A town". Everytime we play it on a drive, my dad always makes sure to hit the Peace sign. 
 
 The goal of this project was to create a Computer Vision (CV) system capapble of recognizing simple hand gestures starting with the Peace sign. By translating a hand gesture into a cue to play music, this project explores gesture recognition as an intuitive and expressive human–computer interaction. It also served as something I wanted to impress my dad with for his birthday. 
