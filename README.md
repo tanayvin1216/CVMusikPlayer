@@ -18,11 +18,11 @@ The goal of this project was to create a Computer Vision (CV) system capapble of
 
 
 ---Project Structure---
-├─ CameraSets.py        # Dataset loading and preprocessing functionalities 
-├─ model.py             # CNN model definition and training logic
-├─ dataset/             # Raw gesture data (optional / original source)
-├─ dataset_clean/       # Cleaned and labeled gesture images
-├─ sounds/              # audio files 
+- CameraSets.py        # Dataset loading and preprocessing functionalities 
+- model.py             # CNN model definition and training logic
+- dataset/             # Raw gesture data (optional / original source)
+- dataset_clean/       # Cleaned and labeled gesture images
+- sounds/              # audio files 
 
 ---Dataset---
 The dataset consists of labeled images of hand gestures organized by class. Images were captured every .1 seconds during recording allowing for quick and seamless dataset creation. The dataset includes images of 128x128 input size.
