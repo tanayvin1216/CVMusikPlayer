@@ -104,7 +104,17 @@ activation, and max pooling to reduce spatial dimensions while retaining importa
   32 → 64 filters → ReLU → MaxPool  
   Output shape: **(64, 16, 16)**
 
-After feature extraction, the output is flattened and passed through fully connected layers to produce gesture class predictions.
+After convolutional feature extraction, the final feature maps are flattened into a one-dimensional vector and passed through fully connected layers to produce gesture class predictions.
+
+-**Fully Connected Layer 1:** 
+   16384 → 128 (ReLU)
+
+-**Dropout:**
+   30% dropout 
+
+-**Fully Connected Layer 2:**
+   128 → 4
+
 
 ### Training
 ReLU activations are used throughout the network, and the model is trained using cross-entropy loss, which is well-suited for gesture classification tasks.
