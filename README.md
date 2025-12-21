@@ -120,6 +120,14 @@ After convolutional feature extraction, the final feature maps are flattened int
 ReLU activations are used throughout the network, and the model is trained using cross-entropy loss, which is well-suited for gesture classification tasks.
 This architecture balances accuracy and efficiency and can be extended to support additional gestures or real-time inference.
 
+### Fully Connected Musik Player
+After the model is trained, it is used as the decision-making component of a simple gesture-controlled music player. Live camera frames are passed through the same preprocessing and inference pipeline, and the model’s predicted gesture class is mapped to a corresponding music control action.
+
+Each recognized gesture triggers a specific song. 
+- Peace: Yeah by Usher
+- Fist: Power by Kanye West
+- Palm: Hold up by Lil Uzi Vert
+- Thumbs-Up: Praise Da Lord by A$AP Rocky
 
 
 ## 🚀 Future Work
